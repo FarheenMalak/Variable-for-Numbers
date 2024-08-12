@@ -1,19 +1,17 @@
 // #3 VARIABLES FOR NUMBERS
 
-console.log("#3 VARIABLES FOR NUMBERS");
+var age = 17;
+alert("I am "+ age + " years old");
 
-var age = "I am 17 Years old";
-alert(age);
+var visitors = 14;
+alert(" You have visited this site " + visitors + " times ");
 
-var visitor = 14;
-alert(" You have visited this site " + 10 + " times ");
+var birthYear = 2005;
+document.write(' My Birth Year is ' +birthYear+ '<br/> ' Data type of my declared variable is number ');
 
-var birthyear = 1;
-document.write(' My Birth Year is 2005  <br> ' + ' <br> Data type of my declared variable is number <br> <br> ');
-
-var name = " Farheen Malak ";
+var vistorName = " Farheen Malak ";
 var quantity = "4";
 var product = "scrafs";
-document.write(name + " Ordered " + quantity + " " + product + " On XYZ Cloth Store ");
+document.write(visitorName + " Ordered " + quantity + " " + product + " On XYZ Cloth Store ");
 
 
